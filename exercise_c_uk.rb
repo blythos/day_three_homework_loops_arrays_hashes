@@ -32,6 +32,8 @@ end
 
 # 4. Use a loop to find the total population of the UK.
 
+# Note: Because this is happening after we added in the population for Northern Ireland, it will also be included in the total.
+
 pop_total = 0
 for country in united_kingdom
   pop_total += country[:population]
